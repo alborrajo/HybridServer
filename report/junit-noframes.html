@@ -1,0 +1,1007 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results.</title>
+<style type="text/css">
+      body {
+        font:normal 68% verdana,arial,helvetica;
+        color:#000000;
+      }
+      table tr td, table tr th {
+          font-size: 68%;
+      }
+      table.details tr th{
+        font-weight: bold;
+        text-align:left;
+        background:#a6caf0;
+      }
+      table.details tr td{
+        background:#eeeee0;
+      }
+
+      p {
+        line-height:1.5em;
+        margin-top:0.5em; margin-bottom:1.0em;
+      }
+      h1 {
+        margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+      }
+      h2 {
+        margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+      }
+      h3 {
+        margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+      }
+      h4 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h5 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h6 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      .Error {
+        font-weight:bold; color:red;
+      }
+      .Failure {
+        font-weight:bold; color:purple;
+      }
+      .Properties {
+        text-align:right;
+      }
+      </style>
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['es.uvigo.esei.dai.hybridserver.HybridServerSecondReleaseTestSuite'] = new Array();
+    
+        cur['ant.core.lib'] = '/home/laith/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/laith/eclipse/workspace/HybridServer/build2.xml';
+    
+        cur['ant.file.HybridServer - Final'] = '/home/laith/eclipse/workspace/HybridServer/build2.xml';
+    
+        cur['ant.file.type.HybridServer - Final'] = 'file';
+    
+        cur['ant.home'] = '/home/laith/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324';
+    
+        cur['ant.java.version'] = '1.8';
+    
+        cur['ant.library.dir'] = '/home/laith/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib';
+    
+        cur['ant.project.default-target'] = 'release';
+    
+        cur['ant.project.invoked-targets'] = 'release';
+    
+        cur['ant.project.name'] = 'HybridServer - Final';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.5 compiled on July 10 2018';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/laith/eclipse/workspace/HybridServer';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['group'] = 'Grupo.2.6';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/laith/eclipse/workspace/HybridServer/bin:/home/laith/eclipse/workspace/HybridServer/lib/commons-logging-1.1.3.jar:/home/laith/eclipse/workspace/HybridServer/lib/dbunit-2.5.3.jar:/home/laith/eclipse/workspace/HybridServer/lib/derby.jar:/home/laith/eclipse/workspace/HybridServer/lib/fluent-hc-4.3.5.jar:/home/laith/eclipse/workspace/HybridServer/lib/httpclient-4.3.5.jar:/home/laith/eclipse/workspace/HybridServer/lib/httpcore-4.3.2.jar:/home/laith/eclipse/workspace/HybridServer/lib/java-hamcrest-2.0.0.0.jar:/home/laith/eclipse/workspace/HybridServer/lib/junit-4.12.jar:/home/laith/eclipse/workspace/HybridServer/lib/mysql-connector-java-5.1.22-bin.jar:/home/laith/eclipse/workspace/HybridServer/lib/slf4j-api-1.7.7.jar:/home/laith/eclipse/workspace/HybridServer/lib/slf4j-simple-1.7.7.jar:/home/laith/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-launcher.jar:/home/laith/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant.jar:/home/laith/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-junit.jar:/home/laith/.p2/pool/plugins/org.apache.ant_1.10.5.v20180808-0324/lib/ant-junit4.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-8-openjdk/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-8-openjdk/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-8-openjdk/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_192-b26';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_192';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.192-b26';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '4.19.12-arch1-1-ARCH';
+    
+        cur['path.separator'] = ':';
+    
+        cur['report.dir'] = '/home/laith/eclipse/workspace/HybridServer/report';
+    
+        cur['report.file'] = 'test.report';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-8-openjdk/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-8-openjdk/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.desktop'] = 'gnome';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner es.uvigo.esei.dai.hybridserver.HybridServerSecondReleaseTestSuite skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/laith/eclipse/workspace/HybridServer/test.report.xml crashfile=/home/laith/eclipse/workspace/HybridServer/junitvmwatcher2437640789753112451.properties propsfile=/home/laith/eclipse/workspace/HybridServer/junit7059707731877664527.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['user.country'] = 'ES';
+    
+        cur['user.dir'] = '/home/laith/eclipse/workspace/HybridServer';
+    
+        cur['user.home'] = '/home/laith';
+    
+        cur['user.language'] = 'es';
+    
+        cur['user.name'] = 'laith';
+    
+        cur['user.timezone'] = '';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style>")
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<a name="top"></a>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org">JUnit</a> and <a href="http://ant.apache.org/ant">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Tests</th><th>Failures</th><th>Errors</th><th>Skipped</th><th>Success rate</th><th>Time</th>
+</tr>
+<tr valign="top" class="">
+<td>239</td><td>0</td><td>0</td><td>0</td><td>100.00%</td><td>200.183</td>
+</tr>
+</table>
+<table border="0" width="95%">
+<tr>
+<td style="text-align: justify;">
+        Note: <i>failures</i> are anticipated and checked for with assertions while <i>errors</i> are unanticipated.
+        </td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<h2>Packages</h2>
+        Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#es.uvigo.esei.dai.hybridserver">es.uvigo.esei.dai.hybridserver</a></td><td>239</td><td>0</td><td>0</td><td>0</td><td>200.183</td><td>2019-01-02T15:06:08</td><td>Laith-XPS</td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<a name="es.uvigo.esei.dai.hybridserver"></a>
+<h3>Package es.uvigo.esei.dai.hybridserver</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#HybridServerSecondReleaseTestSuite">HybridServerSecondReleaseTestSuite</a></td><td>239</td><td>0</td><td>0</td><td>0</td><td>200.183</td><td>2019-01-02T15:06:08</td><td>Laith-XPS</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<hr size="1" width="95%" align="left">
+<a name="HybridServerSecondReleaseTestSuite"></a>
+<h3>TestCase HybridServerSecondReleaseTestSuite</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleWelcome</td><td>Success</td><td></td><td>0.365</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome</td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="">
+<td>test[Missing method]</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>test[Missing resource]</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>test[Missing version]</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test[Missing first line]</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>test[Invalid header]</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>test[Missing new line after header]</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceChain</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testToString</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHttpVersion</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHeaderParameters</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceName</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourcePath</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContent</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetMethod</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContentLength</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceParameters</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceChain</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testToString</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHttpVersion</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHeaderParameters</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceName</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourcePath</td><td>Success</td><td></td><td>0.002</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContent</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetMethod</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContentLength</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceParameters</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceChain</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testToString</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHttpVersion</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHeaderParameters</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceName</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourcePath</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContent</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetMethod</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContentLength</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceParameters</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceChain</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testToString</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHttpVersion</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHeaderParameters</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceName</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourcePath</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContent</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetMethod</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContentLength</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceParameters</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceChain</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testToString</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHttpVersion</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHeaderParameters</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceName</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourcePath</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContent</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetMethod</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContentLength</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceParameters</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceChain</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testToString</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHttpVersion</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHeaderParameters</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceName</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourcePath</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContent</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetMethod</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContentLength</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceParameters</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceChain</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testToString</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHttpVersion</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHeaderParameters</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceName</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourcePath</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContent</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetMethod</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetContentLength</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetResourceParameters</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testPrint</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testPrint</td><td>Success</td><td></td><td>0.001</td>
+</tr>
+<tr valign="top" class="">
+<td>testPrint</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testPrint</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleWelcome[0]</td><td>Success</td><td></td><td>0.025</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[0]</td><td>Success</td><td></td><td>0.009</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleWelcome[1]</td><td>Success</td><td></td><td>0.031</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[1]</td><td>Success</td><td></td><td>0.021</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleWelcome[2]</td><td>Success</td><td></td><td>0.027</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[2]</td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleWelcome[3]</td><td>Success</td><td></td><td>0.018</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[3]</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleWelcome[4]</td><td>Success</td><td></td><td>0.017</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[4]</td><td>Success</td><td></td><td>0.007</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleWelcome[5]</td><td>Success</td><td></td><td>0.020</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[5]</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleWelcome[6]</td><td>Success</td><td></td><td>0.016</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[6]</td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleWelcome[7]</td><td>Success</td><td></td><td>0.017</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[7]</td><td>Success</td><td></td><td>0.004</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleWelcome[8]</td><td>Success</td><td></td><td>0.016</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[8]</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testMultipleWelcome[9]</td><td>Success</td><td></td><td>0.020</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[9]</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+<tr valign="top" class="">
+<td>testPostInvalidContent</td><td>Success</td><td></td><td>0.420</td>
+</tr>
+<tr valign="top" class="">
+<td>testPost</td><td>Success</td><td></td><td>0.134</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetInvalidResource</td><td>Success</td><td></td><td>0.103</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetInvalidHtmlPage</td><td>Success</td><td></td><td>0.126</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetHtmlList</td><td>Success</td><td></td><td>0.117</td>
+</tr>
+<tr valign="top" class="">
+<td>testDelete</td><td>Success</td><td></td><td>0.181</td>
+</tr>
+<tr valign="top" class="">
+<td>testDeleteNonexistentPage</td><td>Success</td><td></td><td>0.093</td>
+</tr>
+<tr valign="top" class="">
+<td>testGet</td><td>Success</td><td></td><td>0.246</td>
+</tr>
+<tr valign="top" class="">
+<td>testPost</td><td>Success</td><td></td><td>0.174</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetList</td><td>Success</td><td></td><td>0.158</td>
+</tr>
+<tr valign="top" class="">
+<td>testDelete</td><td>Success</td><td></td><td>0.217</td>
+</tr>
+<tr valign="top" class="">
+<td>testDeleteNonexistentPage</td><td>Success</td><td></td><td>0.138</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetInvalidPage</td><td>Success</td><td></td><td>0.198</td>
+</tr>
+<tr valign="top" class="">
+<td>testGet</td><td>Success</td><td></td><td>0.134</td>
+</tr>
+<tr valign="top" class="">
+<td>testPost</td><td>Success</td><td></td><td>0.135</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetList</td><td>Success</td><td></td><td>0.128</td>
+</tr>
+<tr valign="top" class="">
+<td>testDelete</td><td>Success</td><td></td><td>0.179</td>
+</tr>
+<tr valign="top" class="">
+<td>testDeleteNonexistentPage</td><td>Success</td><td></td><td>0.148</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetInvalidPage</td><td>Success</td><td></td><td>0.170</td>
+</tr>
+<tr valign="top" class="">
+<td>testGet</td><td>Success</td><td></td><td>0.165</td>
+</tr>
+<tr valign="top" class="">
+<td>testPost</td><td>Success</td><td></td><td>0.151</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetList</td><td>Success</td><td></td><td>0.146</td>
+</tr>
+<tr valign="top" class="">
+<td>testDelete</td><td>Success</td><td></td><td>0.231</td>
+</tr>
+<tr valign="top" class="">
+<td>testDeleteNonexistentPage</td><td>Success</td><td></td><td>0.119</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetInvalidPage</td><td>Success</td><td></td><td>0.124</td>
+</tr>
+<tr valign="top" class="">
+<td>testPostWithBadXSD</td><td>Success</td><td></td><td>0.149</td>
+</tr>
+<tr valign="top" class="">
+<td>testPost</td><td>Success</td><td></td><td>0.160</td>
+</tr>
+<tr valign="top" class="">
+<td>testPostWithoutXSD</td><td>Success</td><td></td><td>0.150</td>
+</tr>
+<tr valign="top" class="">
+<td>testGet</td><td>Success</td><td></td><td>0.178</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetList</td><td>Success</td><td></td><td>0.168</td>
+</tr>
+<tr valign="top" class="">
+<td>testDelete</td><td>Success</td><td></td><td>0.146</td>
+</tr>
+<tr valign="top" class="">
+<td>testDeleteNonexistentPage</td><td>Success</td><td></td><td>0.167</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetInvalidPage</td><td>Success</td><td></td><td>0.145</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalidXSLT</td><td>Success</td><td></td><td>0.236</td>
+</tr>
+<tr valign="top" class="">
+<td>testSimpleGet</td><td>Success</td><td></td><td>0.164</td>
+</tr>
+<tr valign="top" class="">
+<td>testInexistantXSLT</td><td>Success</td><td></td><td>0.214</td>
+</tr>
+<tr valign="top" class="">
+<td>testConvertedGet</td><td>Success</td><td></td><td>0.415</td>
+</tr>
+<tr valign="top" class="">
+<td>testSimpleGet</td><td>Success</td><td></td><td>0.162</td>
+</tr>
+<tr valign="top" class="">
+<td>testConvertedGet</td><td>Success</td><td></td><td>0.287</td>
+</tr>
+<tr valign="top" class="">
+<td>testLoad[Missing http parameter]</td><td>Success</td><td></td><td>0.007</td>
+</tr>
+<tr valign="top" class="">
+<td>testLoad[Missing database configuration]</td><td>Success</td><td></td><td>0.012</td>
+</tr>
+<tr valign="top" class="">
+<td>testLoad[Invalid http port number]</td><td>Success</td><td></td><td>0.007</td>
+</tr>
+<tr valign="top" class="">
+<td>testLoad[Invalid number of clients]</td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="">
+<td>testLoad[Missing attributes in server]</td><td>Success</td><td></td><td>0.006</td>
+</tr>
+<tr valign="top" class="">
+<td>testLoad</td><td>Success</td><td></td><td>0.017</td>
+</tr>
+<tr valign="top" class="">
+<td>testHtmlList[Hybrid Server 1]</td><td>Success</td><td></td><td>1.416</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[Hybrid Server 1]</td><td>Success</td><td></td><td>0.714</td>
+</tr>
+<tr valign="top" class="">
+<td>testXsltList[Hybrid Server 1]</td><td>Success</td><td></td><td>0.946</td>
+</tr>
+<tr valign="top" class="">
+<td>testXmlList[Hybrid Server 1]</td><td>Success</td><td></td><td>0.948</td>
+</tr>
+<tr valign="top" class="">
+<td>testXsdList[Hybrid Server 1]</td><td>Success</td><td></td><td>0.987</td>
+</tr>
+<tr valign="top" class="">
+<td>testHtmlList[Hybrid Server 2]</td><td>Success</td><td></td><td>0.904</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[Hybrid Server 2]</td><td>Success</td><td></td><td>0.601</td>
+</tr>
+<tr valign="top" class="">
+<td>testXsltList[Hybrid Server 2]</td><td>Success</td><td></td><td>0.965</td>
+</tr>
+<tr valign="top" class="">
+<td>testXmlList[Hybrid Server 2]</td><td>Success</td><td></td><td>0.924</td>
+</tr>
+<tr valign="top" class="">
+<td>testXsdList[Hybrid Server 2]</td><td>Success</td><td></td><td>0.729</td>
+</tr>
+<tr valign="top" class="">
+<td>testHtmlList[Hybrid Server 3]</td><td>Success</td><td></td><td>0.923</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[Hybrid Server 3]</td><td>Success</td><td></td><td>0.492</td>
+</tr>
+<tr valign="top" class="">
+<td>testXsltList[Hybrid Server 3]</td><td>Success</td><td></td><td>0.850</td>
+</tr>
+<tr valign="top" class="">
+<td>testXmlList[Hybrid Server 3]</td><td>Success</td><td></td><td>0.803</td>
+</tr>
+<tr valign="top" class="">
+<td>testXsdList[Hybrid Server 3]</td><td>Success</td><td></td><td>0.946</td>
+</tr>
+<tr valign="top" class="">
+<td>testHtmlList[Hybrid Server 4]</td><td>Success</td><td></td><td>0.820</td>
+</tr>
+<tr valign="top" class="">
+<td>testWelcome[Hybrid Server 4]</td><td>Success</td><td></td><td>0.560</td>
+</tr>
+<tr valign="top" class="">
+<td>testXsltList[Hybrid Server 4]</td><td>Success</td><td></td><td>0.796</td>
+</tr>
+<tr valign="top" class="">
+<td>testXmlList[Hybrid Server 4]</td><td>Success</td><td></td><td>0.813</td>
+</tr>
+<tr valign="top" class="">
+<td>testXsdList[Hybrid Server 4]</td><td>Success</td><td></td><td>0.855</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 1]</td><td>Success</td><td></td><td>0.797</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 1]</td><td>Success</td><td></td><td>3.708</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 1]</td><td>Success</td><td></td><td>3.227</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 2]</td><td>Success</td><td></td><td>0.745</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 2]</td><td>Success</td><td></td><td>3.539</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 2]</td><td>Success</td><td></td><td>3.356</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 3]</td><td>Success</td><td></td><td>0.657</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 3]</td><td>Success</td><td></td><td>3.415</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 3]</td><td>Success</td><td></td><td>3.350</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 4]</td><td>Success</td><td></td><td>0.602</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 4]</td><td>Success</td><td></td><td>3.521</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 4]</td><td>Success</td><td></td><td>3.284</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 1]</td><td>Success</td><td></td><td>0.557</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 1]</td><td>Success</td><td></td><td>1.626</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 1]</td><td>Success</td><td></td><td>3.166</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 2]</td><td>Success</td><td></td><td>0.562</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 2]</td><td>Success</td><td></td><td>1.543</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 2]</td><td>Success</td><td></td><td>3.166</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 3]</td><td>Success</td><td></td><td>0.561</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 3]</td><td>Success</td><td></td><td>1.282</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 3]</td><td>Success</td><td></td><td>3.158</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 4]</td><td>Success</td><td></td><td>0.563</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 4]</td><td>Success</td><td></td><td>1.658</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 4]</td><td>Success</td><td></td><td>3.112</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 1]</td><td>Success</td><td></td><td>0.579</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 1]</td><td>Success</td><td></td><td>1.698</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 1]</td><td>Success</td><td></td><td>3.088</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 2]</td><td>Success</td><td></td><td>0.468</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 2]</td><td>Success</td><td></td><td>1.581</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 2]</td><td>Success</td><td></td><td>3.014</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 3]</td><td>Success</td><td></td><td>0.711</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 3]</td><td>Success</td><td></td><td>1.491</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 3]</td><td>Success</td><td></td><td>3.075</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 4]</td><td>Success</td><td></td><td>0.663</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 4]</td><td>Success</td><td></td><td>1.501</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 4]</td><td>Success</td><td></td><td>3.094</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 1]</td><td>Success</td><td></td><td>0.540</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 1]</td><td>Success</td><td></td><td>1.735</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 1]</td><td>Success</td><td></td><td>3.149</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 2]</td><td>Success</td><td></td><td>0.585</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 2]</td><td>Success</td><td></td><td>1.650</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 2]</td><td>Success</td><td></td><td>3.161</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 3]</td><td>Success</td><td></td><td>0.476</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 3]</td><td>Success</td><td></td><td>1.539</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 3]</td><td>Success</td><td></td><td>3.153</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 4]</td><td>Success</td><td></td><td>0.637</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 4]</td><td>Success</td><td></td><td>1.414</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalid[Hybrid Server 4]</td><td>Success</td><td></td><td>3.019</td>
+</tr>
+<tr valign="top" class="">
+<td>testBadXsltTransformations[Hybrid Server 1]</td><td>Success</td><td></td><td>6.955</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalidXsltTransformations[Hybrid Server 1]</td><td>Success</td><td></td><td>2.735</td>
+</tr>
+<tr valign="top" class="">
+<td>testBadXmlTransformations[Hybrid Server 1]</td><td>Success</td><td></td><td>2.493</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 1]</td><td>Success</td><td></td><td>0.586</td>
+</tr>
+<tr valign="top" class="">
+<td>testCrossTransformations[Hybrid Server 1]</td><td>Success</td><td></td><td>2.721</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 1]</td><td>Success</td><td></td><td>4.971</td>
+</tr>
+<tr valign="top" class="">
+<td>testBadXsltTransformations[Hybrid Server 2]</td><td>Success</td><td></td><td>6.925</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalidXsltTransformations[Hybrid Server 2]</td><td>Success</td><td></td><td>2.855</td>
+</tr>
+<tr valign="top" class="">
+<td>testBadXmlTransformations[Hybrid Server 2]</td><td>Success</td><td></td><td>2.506</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 2]</td><td>Success</td><td></td><td>0.625</td>
+</tr>
+<tr valign="top" class="">
+<td>testCrossTransformations[Hybrid Server 2]</td><td>Success</td><td></td><td>2.672</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 2]</td><td>Success</td><td></td><td>5.162</td>
+</tr>
+<tr valign="top" class="">
+<td>testBadXsltTransformations[Hybrid Server 3]</td><td>Success</td><td></td><td>6.973</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalidXsltTransformations[Hybrid Server 3]</td><td>Success</td><td></td><td>2.781</td>
+</tr>
+<tr valign="top" class="">
+<td>testBadXmlTransformations[Hybrid Server 3]</td><td>Success</td><td></td><td>2.667</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 3]</td><td>Success</td><td></td><td>0.623</td>
+</tr>
+<tr valign="top" class="">
+<td>testCrossTransformations[Hybrid Server 3]</td><td>Success</td><td></td><td>2.706</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 3]</td><td>Success</td><td></td><td>5.107</td>
+</tr>
+<tr valign="top" class="">
+<td>testBadXsltTransformations[Hybrid Server 4]</td><td>Success</td><td></td><td>6.858</td>
+</tr>
+<tr valign="top" class="">
+<td>testInvalidXsltTransformations[Hybrid Server 4]</td><td>Success</td><td></td><td>2.754</td>
+</tr>
+<tr valign="top" class="">
+<td>testBadXmlTransformations[Hybrid Server 4]</td><td>Success</td><td></td><td>2.540</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetLocales[Hybrid Server 4]</td><td>Success</td><td></td><td>0.657</td>
+</tr>
+<tr valign="top" class="">
+<td>testCrossTransformations[Hybrid Server 4]</td><td>Success</td><td></td><td>2.483</td>
+</tr>
+<tr valign="top" class="">
+<td>testGetRemotes[Hybrid Server 4]</td><td>Success</td><td></td><td>4.861</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('es.uvigo.esei.dai.hybridserver.HybridServerSecondReleaseTestSuite');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a>
+</body>
+</html>
