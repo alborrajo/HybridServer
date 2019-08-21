@@ -1,5 +1,7 @@
 # HybridServer
 
+![Logo by @paulaliebheart](logo/logo2.png)
+
 Hybrid client/P2P/server system for the management of HTML and XML (including support for XSD and XSL Transformations) documents.
 
 ![Architecture](./architecture.png)
